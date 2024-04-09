@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="enlogo.png" ></a>
+        <nav>
+            <a class="css-button-sliding-to-left--red" href="index.html">home</a>
+            <a class="css-button-sliding-to-left--red" href="services.html">services</a>
+            <a class="css-button-sliding-to-left--red" href="about.html">About</a>
+        </nav>
+    </header>
+
+    <div class="conbo">
+        <div> <h2>More</h2></div>
+    </div>
+<br>
+    <div style="display: flex; justify-content: center;">
+        <iframe  src="https://arcred7.blogspot.com/2024/04/more.html" frameborder="0"></iframe>
+    
+    </div>
+
+
+
+
+    <style>
+         iframe{
+            height: 79vh;
+            width: 90%;
+        }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    background-color: #1B1A17;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.logo{
+  
+    margin-top: auto;
+}
+.logo img{
+    width: 70px;
+    margin-top: auto;
+
+}
+nav{
+margin-right: 50px;
+}
+
+
+.conbo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.conbo div:hover{
+    transform: scale(1.1);
+    background-color: rgb(185, 0, 0);
+}
+.conbo div{
+width: 10%;
+height: 40px;
+background-color: black;
+color: gold;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+
+.css-button-sliding-to-left--red {
+    margin-right: 10px;
+    height: 40px;
+    color: black;
+  text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: rgb(235, 199, 0);
+    overflow: hidden;
+    border: 2px solid #d90429;
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+  }
+  .css-button-sliding-to-left--red:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left--red:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--red:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #d90429;
+  }
+
+
+  @media (max-width:600px){
+  
+  .conbo div{
+      width: 30%;
+  }
+  .tabl img{
+      width: 120px;
+  }
+
+  .logo img{
+      width: 50px;
+      margin-top: auto;
+  }
+  .css-button-sliding-to-left--red{
+      font-size: 16px;
+      padding: 2px;
+      margin-right: 5px;
+      padding-top: 5px;
+      height: 30px;
+  }
+}
+
+
+    </style>
+</body>
+</html>

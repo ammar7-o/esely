@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #1B1A17;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.logo{
+  
+    margin-top: auto;
+}
+.logo img{
+    width: 70px;
+    margin-top: auto;
+
+}
+nav{
+margin-right: 50px;
+}
+
+
+
+      
+    
+
+section h1 span{
+    color: red;
+    text-transform: capitalize;
+ 
+}
+section{
+    background-color: #cecece;
+    height: 100%;
+    margin: 0;
+
+}
+section h1{
+    color: black;
+    text-transform: capitalize;
+   
+    text-align: center;
+    font-family: sans-serif;
+}
+.conbo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.conbo div:hover{
+    transform: scale(1.1);
+    background-color: rgb(185, 0, 0);
+}
+.conbo div{
+width: 10%;
+height: 40px;
+background-color: black;
+color: gold;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+.tabl{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0;
+    height: 200px;
+}
+section table {
+    border: 1px solid black;
+    width: 40%;
+    border-radius: 7px;
+    background-color: white;
+}
+section table .nob{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0;
+
+}
+section table .nor{
+    border-left: 1px solid black;
+    padding: 0;
+
+}
+section table .nok{
+  
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.downl{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+.concard{
+    display: flex;
+justify-content: space-around;
+}
+.card{
+    width: 200px;
+    height: 270px;
+    border-radius: 20px;
+background: #b3b3b3;
+box-shadow:  15px 15px 30px #8f8f8f,
+             -15px -15px 30px #d7d7d7;
+             background-color: gold;
+             display: flex;
+             flex-direction: column;
+             margin-bottom: 20px;
+             transition: 0.7s;
+}
+
+.card:hover{
+ background-color: red;
+transform: scale(1.1);
+
+}
+.down{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+.mo{
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+   
+}
+
+
+.css-button-sliding-to-left--red {
+    margin-right: 10px;
+    height: 40px;
+    color: black;
+  text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: rgb(235, 199, 0);
+    overflow: hidden;
+    border: 2px solid #d90429;
+   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+  }
+  .css-button-sliding-to-left--red:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left--red:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--red:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #d90429;
+  }
+
+@media (max-width:600px){
+    .concard{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conbo div{
+        width: 30%;
+    }
+    .tabl img{
+        width: 120px;
+    }
+    .tabl th{
+        font-size: 16px;
+    }
+     section table{
+        width: 80%;
+    }
+    .logo img{
+        width: 50px;
+        margin-top: auto;
+    
+    }
+    nav{
+    margin-right: 5px;
+    }
+    .css-button-sliding-to-left--red{
+        font-size: 16px;
+        padding: 2px;
+        margin-right: 5px;
+        padding-top: 5px;
+        height: 30px;
+    }
+    .card{
+        width: 170px;
+    }
+}
+footer{
+    height: 100px;
+    background-color: black;
+    font-family: monospace;
+    font-size: larger;
+}
+footer h3{
+    color: gold;
+}
+
